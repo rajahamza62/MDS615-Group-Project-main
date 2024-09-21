@@ -1,0 +1,32 @@
+#todo-app {
+    text-align: center;
+}
+
+#new-task {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#add-task {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+#task-list button {
+    padding: 5px 10px;
+}

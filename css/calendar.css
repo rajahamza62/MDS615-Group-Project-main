@@ -1,0 +1,32 @@
+#calendar-app {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#calendar-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#calendar-days {
+    display: contents;
+    font-weight: bold;
+}
+
+.date-cell {
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.date-cell:hover {
+    background-color: #f0f0f0;
+}
